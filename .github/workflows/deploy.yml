@@ -1,0 +1,7 @@
+name: deploy vite to pages
+on:
+  push:
+     branches: [main]
+  jobs:    
+    build:
+    runs-on: ubuntu-latest
